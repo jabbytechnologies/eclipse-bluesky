@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="bluesky" sequenceNumber="7">
+<?pde version="3.8"?><target name="bluesky" sequenceNumber="13">
 <locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.license.feature.group" version="0.0.0"/>
+<repository location="http://download.eclipse.org/cbi/updates/license/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<repository location="http://download.eclipse.org/releases/oxygen/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.apache.commons.io" version="2.2.0.v201405211200"/>
+<repository location="http://download.eclipse.org/tools/orbit/R-builds/R20170516192513/repository"/>
+</location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.lsp4e" version="0.0.0"/>
 <repository location="http://download.eclipse.org/lsp4e/snapshots/"/>
@@ -10,29 +21,30 @@
 <repository location="http://download.eclipse.org/tm4e/snapshots/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<repository location="http://download.eclipse.org/tools/orbit/R-builds/R20170516192513/repository"/>
-<unit id="org.apache.commons.io" version="2.2.0.v201405211200"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.jdt.annotation" version="0.0.0"/>
-<unit id="org.eclipse.platform.ide" version="0.0.0"/>
-<unit id="org.eclipse.ui.genericeditor" version="0.0.0"/>
-<unit id="org.eclipse.ui.tests.harness" version="0.0.0"/>
-<unit id="org.hamcrest" version="0.0.0"/>
-<unit id="org.junit" version="0.0.0"/>
-<unit id="org.mockito" version="0.0.0"/>
-<repository location="http://download.eclipse.org/eclipse/updates/4.7/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<repository location="http://download.eclipse.org/releases/oxygen/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.license.feature.group" version="0.0.0"/>
-<repository location="http://download.eclipse.org/cbi/updates/license/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.wst.jsdt.nodejs.feature.feature.group" version="1.0.200.v201610220243"/>
 <repository location="http://download.eclipse.org/webtools/jsdt/snapshots/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.cvs.feature.group" version="1.4.500.v20171206-2000"/>
+<unit id="org.eclipse.cvs.source.feature.group" version="1.4.500.v20171206-2000"/>
+<unit id="org.eclipse.e4.core.tools.feature.source.feature.group" version="4.8.0.v20171011-0656"/>
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.14.0.v20171204-1920"/>
+<unit id="org.eclipse.jdt.feature.group" version="3.14.0.v20171206-2000"/>
+<unit id="org.eclipse.jdt.source.feature.group" version="3.14.0.v20171206-2000"/>
+<unit id="org.eclipse.pde.api.tools.ee.feature.feature.group" version="1.0.300.v20171201-1034"/>
+<unit id="org.eclipse.pde.feature.group" version="3.13.100.v20171206-2000"/>
+<unit id="org.eclipse.pde.source.feature.group" version="3.13.100.v20171206-2000"/>
+<unit id="org.eclipse.platform.ide" version="4.8.0.I20171206-2000"/>
+<unit id="org.eclipse.platform.sdk" version="4.8.0.I20171206-2000"/>
+<unit id="org.eclipse.rcp.feature.group" version="4.8.0.v20171206-2000"/>
+<unit id="org.eclipse.rcp.source.feature.group" version="4.8.0.v20171206-2000"/>
+<unit id="org.eclipse.releng.tools.feature.group" version="3.10.0.v20171115-0723"/>
+<unit id="org.eclipse.sdk.examples.source.feature.group" version="3.6.100.v20171206-2000"/>
+<unit id="org.eclipse.sdk.ide" version="4.8.0.I20171206-2000"/>
+<unit id="org.eclipse.sdk.tests.feature.group" version="4.8.0.v20171206-2000"/>
+<unit id="org.eclipse.swt.tools.feature.feature.group" version="3.107.0.v20171130-0758"/>
+<unit id="org.eclipse.test.feature.group" version="3.7.300.v20171130-1004"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.8milestones"/>
 </location>
 </locations>
 </target>
